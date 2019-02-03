@@ -1,0 +1,10 @@
+{
+  "libs": [
+  ],
+  "plugins": {
+    "webpack": {
+      "configPath": "./webpack.config.js"
+    }
+  },
+  "ecmaVersion": 7
+}

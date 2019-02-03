@@ -1,0 +1,45 @@
+$scheme-neutral: (
+  ghost: ghostwhite,
+  lightest: #F9F9FB,
+  light: #E4E7EB,
+  base: #425A70,
+  dark: #234361,
+
+  btn-default-color: #DDEBF7,
+
+  border: silver,
+);
+
+$scheme-green: (
+  lightest: #F1FAF5,
+  light: #D4EEE2,
+  base: #47B881,
+  dark: #00783E
+);
+
+$scheme-brown: (
+  light: rgba(102, 51, 0, 0.9)
+);
+
+$scheme-intent: (
+  success: #47B881,
+  failure: #EC4C47,
+);
+
+$scheme-functional: (
+  yellowTint: #FEF8E7,
+  greenTint: #F1FAF5,
+  orangeTint: #FDF8F3,
+  blueTint: #F7F9FD,
+  purpleTint: #F8F7FC,
+  tealTint: #F1FBFC
+);
+
+$scheme-red: (
+  dark: #BF0E08,
+  base: #EC4C47
+);
+
+$scheme-gray: (
+  white: #FFFFFF
+);

@@ -1,0 +1,28 @@
+@import './palette.scss';
+
+$default-background: map-get($scheme-functional, blueTint);
+$border: lighten(map-get($scheme-functional, blueTint), 20%);
+$default-btn-color: map-get($scheme-neutral, light);
+
+$not-logged-hover-bg-color: map-get($scheme-green, light);
+$logged-in-bg-color: map-get($scheme-green, light);
+
+$close-icon: map-get($scheme-neutral, dark);
+
+$autocomplete-highlight: crimson;
+
+// FONT
+$growl-text-color: map-get($scheme-neutral, dark);
+$growl-header-color: map-get($scheme-brown, light);
+
+// MARKER
+$growl-marker-color: map-get($scheme-brown, light);
+$growl-marker-border-color: map-get($scheme-gray, white);
+$growl-zoom-marker-color: map-get($scheme-red, dark);
+$growl-zoom-marker-border-color: map-get($scheme-gray, white);
+
+// STATE
+$growl-error: map-get($scheme-red, base);
+$growl-error-light: lighten(map-get($scheme-red, base), 20%);
+$growl-success: map-get($scheme-green, base);
+$growl-success-light: lighten(map-get($scheme-green, base), 20%);

@@ -1,0 +1,51 @@
+@import './theme.scss';
+@import './typography.scss';
+
+.leaflet-container {
+  font: unset;
+  @include growl-typography;
+  font-size: small;
+}
+
+.leaflet-control-layers-override {
+  border: 1px solid $border !important;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important;
+  border-radius: 2px 2px 2px 2px !important;
+  background-color: $default-background;
+  user-select: none;
+  -moz-user-select: none;
+  width: 129px;
+  margin-top: 7px;
+}
+
+.leaflet-top.leaflet-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  .leaflet-control-layers {
+    order: 2;
+  }
+}
+
+// Marker cluster overrides
+.marker-cluster-small {
+  background-color: rgba(255, 230, 153, 0.5);
+
+  div {
+    background-color: rgba(255, 230, 153, 0.9);
+  }
+}
+
+.marker-cluster {
+  span {
+    @include growl-text;
+    font-size: small;
+  }
+}
+
+.leaflet-div-icon {
+  background: none;
+  border: none;
+}
+

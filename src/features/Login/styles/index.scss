@@ -1,0 +1,60 @@
+@import '../../../sass/theme.scss';
+@import '../../../sass/typography.scss';
+
+.login-modal-overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(255, 255, 255, 0.0);
+  z-index: 1000
+}
+
+.content-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px;
+
+  .header {
+    flex: 0 1 10%;
+    display: flex;
+    flex-direction: column;
+    justify-contents: center;
+    align-items: flex-end;
+    width: 100%;
+    color: $close-icon;
+
+    &:hover {
+      cursor: pointer;
+      color: lighten($close-icon, 20%);
+    }
+  }
+
+  .login-selection {
+    flex: 0 1 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .google-sign-in {
+      background-repeat: no-repeat;
+      width: 190px;
+      height: 50px;
+
+      &:hover {
+        background-repeat: no-repeat;
+        cursor: pointer;
+      }
+
+      &:active {
+        background-repeat: no-repeat;
+        cursor: pointer;
+      }
+    }
+  }
+}
+

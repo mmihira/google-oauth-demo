@@ -1,0 +1,39 @@
+@import './theme.scss';
+
+@mixin growl-typography {
+  font-family: "Roboto", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  font-weight: normal !important;
+}
+
+@mixin growl-header {
+  font-family: "Roboto", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  font-weight: bold;
+  font-size: medium;
+  color: $growl-header-color;
+}
+
+@mixin growl-text {
+  font-family: "Roboto", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  font-weight: normal;
+  color: $growl-text-color;
+  font-size: medium;
+}
+
+@mixin growl-text-small {
+  font-family: "Roboto", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  font-weight: normal;
+  color: $growl-text-color;
+  font-size: small;
+}
+
+@mixin growl-title {
+  font-family: "Roboto", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  font-weight: bold;
+  font-size: large;
+  color: $growl-header-color;
+}
