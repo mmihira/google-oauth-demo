@@ -27,7 +27,7 @@ const config = convict({
   api_server_url: {
     doc: 'API Server URL',
     format: 'url',
-    default: 'http://localhost:3000',
+    default: 'http://localhost:8071',
     env: 'API_SERVER_URL',
     arg: 'api_server_url'
   }
